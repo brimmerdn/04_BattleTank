@@ -52,16 +52,6 @@ BattleTank/SourceArt/**/*.tga
 BattleTank/Binaries/*
 BattleTank/Plugins/*/Binaries/*
 
-# Builds
-BattleTank/Build/*
-
-# Whitelist PakBlacklist-<BuildConfiguration>.txt files
-!BattleTank/Build/*/
-BattleTank/Build/*/**
-!BattleTank/Build/*/PakBlacklist*.txt
-
-# Don't ignore icon files in Build
-!BattleTank/Build/**/*.ico
 
 # Built data for maps
 *_BuiltData.uasset
